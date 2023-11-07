@@ -1,0 +1,206 @@
+/* MY MAIN CSS!*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+img {
+    width: 100%; 
+    display: block;
+}
+
+h1, h2, h3 {
+
+    font-size: 1em;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+nav {
+    color: black;
+    word-spacing: 50px;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 15px;
+    line-height: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+header, footer {
+    height: 50px;
+    align-items: center;
+    padding: 0px 20px;
+}
+header {
+    padding: 10px;
+    max-width: 4000px;
+    background-color: #eeeeee;
+    border-radius: 10px;
+}
+footer {
+    display: flex;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+    max-width: 4000px;
+    padding-top:350px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* END OF RESET */
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.card {
+    width: 350px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #eeeeee;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 900;
+    padding-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-slogan{
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.holder {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.icons {
+    width: 250px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.mail {
+    text-align: center;
+    padding-top: 30PX;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+
+
+}
+
+.name {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 50;
+    padding-top: 270px;
+    text-align: center;
+}
+
+.port {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.major {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
+
+.circle {
+    opacity: .25;
+    width: 700px;
+    position:absolute;
+    left:440px;
+    top:90px;
+    z-index:-1;
+}
+
+.head {
+    width: 300px;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.about {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-size: 28px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.me {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    width: 700px;
+    padding-left: 225px;
+    padding-bottom: 20px;
+}
+
+.wrapper {
+    width: 1200PX;
+}
+
+.card-description {
+    font-size: 16px;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-right: 50px;
+    text-align: left;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    font-style: italic;
+    padding: 50px;
+}
+.thrive {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.button:hover {
+    color: grey;
+}
